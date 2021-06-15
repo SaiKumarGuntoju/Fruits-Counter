@@ -1,0 +1,42 @@
+.page-container {
+  background-color: #ffd569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.item-container {
+  background-color: #ffffff;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  height: 300px;
+  width: 300px;
+}
+.all-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+.items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.count {
+  color: #ffd569;
+}
+.btn {
+  color: #ffffff;
+  background-color: #007bff;
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 5px;
+}
